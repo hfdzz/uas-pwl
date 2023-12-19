@@ -1,3 +1,4 @@
+// Kode ini tidak difungsikan, melainkan hanya sekedar tempat melempar kode yang tidak terpakai
 import React from 'react';
 import '../App.css';
 import Footer from '../components/global/Footer';
