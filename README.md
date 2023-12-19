@@ -13,11 +13,8 @@ Website e-commerce yang dibuat ini ialah situs toko buku bernama: Jelajah Buku y
 ## Komponen Utama Arsitektur Website
 
 - Pengembangan Front End dengan bahasa pemrograman React
-
-Halaman dari website terdiri atas Halaman Beranda, Halaman Login, Detail Produk, Transaksi, Cart.
+    Halaman dari website terdiri atas Halaman Beranda, Halaman Login, Detail Produk, Transaksi, Cart.
 - Pengembangan Back End dengan menggunakan Framework Pyramid Python
-
-Terdiri atas endpoint pengguna (auth), kategori, cart, produk, dan transaksi.
-
-Untuk penjelasan lebih lanjut mengenai arsitektur aplikasi website dapat dilihat pada gambar dibawah ini.
+    Terdiri atas endpoint pengguna (auth), kategori, cart, produk, dan transaksi
+    Untuk penjelasan lebih lanjut mengenai arsitektur aplikasi website dapat dilihat pada gambar dibawah ini.
 
