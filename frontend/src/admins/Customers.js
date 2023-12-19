@@ -1,8 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
-import Sidebar from './Sidebar'
 import Nav from './Nav'
+import Sidebar from './Sidebar'
 
 const Customers = () => {
 
@@ -33,28 +33,28 @@ const Customers = () => {
             <thead>
                 <tr>
                 <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Password</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                 <th scope="row">1</th>
                 <td>Mark</td>
-                <td>Otto</td>
+                <td>Mark@zrazy.com</td>
                 <td>@mdo</td>
                 </tr>
                 <tr>
                 <th scope="row">2</th>
                 <td>Jacob</td>
-                <td>Thornton</td>
+                <td>Jacob@Lazy.com</td>
                 <td>@fat</td>
                 </tr>
                 <tr>
                 <th scope="row">3</th>
                 <td>Larry</td>
-                <td>the Bird</td>
+                <td>Larry@cuit.com</td>
                 <td>@twitter</td>
                 </tr>
             </tbody>
