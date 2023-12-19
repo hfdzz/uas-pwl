@@ -1,0 +1,20 @@
+/* .footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 0px;
+    position: fixed;
+  } */
+  .footer {
+    background-color: #333;
+    /* position:fixed; */
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    font-size: 18px;
+    padding: 10px 0;
+}
+  

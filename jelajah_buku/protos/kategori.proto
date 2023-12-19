@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+package proto;
+
+service Kategori {
+    rpc GetKategori(KategoriRequest) returns (KategoriResponse) {}
+}
+
+message KategoriRequest {
+    int32 id = 1;
+}
+
+message KategoriResponse {
+    string kategori = 2;
+    string text = 3;
+}

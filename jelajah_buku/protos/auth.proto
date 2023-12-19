@@ -1,0 +1,35 @@
+
+syntax = "proto3";
+
+package proto;
+
+service Auth {
+    rpc GetAuthByID(UserID) returns (UserData) {}
+    rpc GetAuthByToken (UserToken) returns (UserData) {}
+    rpc CheckIfAuth (Credential) returns (IsAuth) {}
+}
+
+message Credential {
+    string email = 1;
+    string password = 2;
+    string token = 3;
+}
+
+message UserData {
+    int32 id = 1;
+    string email = 2;
+    string nama = 3;
+}
+
+message UserID {
+    int32 id = 1;
+}
+
+message UserToken {
+    string token = 1;
+}
+
+message IsAuth {
+    bool isAuth = 1;
+    int32 id = 2;
+}

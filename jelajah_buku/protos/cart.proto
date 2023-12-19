@@ -1,0 +1,25 @@
+
+syntax = "proto3";
+
+package proto;
+
+service Cart{
+    rpc ClearCart(ClearCartRequest) returns (ClearCartResponse) {}
+    rpc GetTotal(GetTotalRequest) returns (GetTotalResponse) {}
+}
+
+message ClearCartRequest {
+    int32 user_id = 1;
+}
+
+message ClearCartResponse {
+    bool success = 1;
+}
+
+message GetTotalRequest {
+    int32 user_id = 1;
+}
+
+message GetTotalResponse {
+    float total = 1;
+}

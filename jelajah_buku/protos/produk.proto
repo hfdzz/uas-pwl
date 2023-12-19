@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+package proto;
+
+service Produk{
+    rpc GetPrice(PriceRequest) returns (PriceResponse);
+}
+
+message PriceRequest{
+    int32 id = 1;
+}
+
+message PriceResponse{
+    int32 price = 1;
+}
+

@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  section {
+    padding: 2em;
+  }
+  
+  .books-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family:'Lucida Sans';
+  }
+  
+  .book {
+    width: 300px;
+    margin: 1em;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .detail-button{
+    background-color: rgb(112, 103, 103);
+    margin-right: 20px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+  }
+  .cart-button{
+    background-color: rgb(156, 11, 11);
+    margin-left: 20px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+  }
